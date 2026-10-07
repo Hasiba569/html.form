@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <form>
+            <label for="Fullname">FullName:</label>
+            <input type="text" id="Fullname" name="Fullname">
+            <br><br>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email">
+            <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+            <label for="course">Select Your Course:</label>
+            <select id="course" name="course">
+                <option value="computer-science">Computer Science</option>
+                <option value="ict">ICT</option>
+                <option value="cybersecurity">CyberSecurity</option>
+                <option value="engineering">Engineering</option>
+            </select>
+            <p>Gender:</p>
+            <input type="radio"id="female" name="gender"value="female">
+            <label for="female">Female</label>
+            <br><br>
+            <input type="radio" id="male" name="gender"value="male">
+            <label for="male">Male</label>
+            <br><br>
+            <input type="radio" id="other" name="gender"value="other">
+            <label for="other">Other</label>
+            <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <label>
+                <input type="checkbox" name="terms"> I agree to the terms and conditions</label>
+            <br><br>
+            <textarea name="comment" cols="10" rows="10"></textarea>
+            <br><br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
